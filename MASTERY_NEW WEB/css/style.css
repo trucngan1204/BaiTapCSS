@@ -88,7 +88,37 @@
     border-radius: 7px;
 }
 
-.number{
+.clear{
+    clear:both;
+}
+.infor {
+    background-color: #d1cdcd;
+    margin-top: 50px;   
+}
+.infor .col {
+    float: left;
+    width: 25%;
+    padding-left: 100px;
+}
+.item__left h2{
+    font-size: 50px;
+
+   
+}
+.item__right h3{
+    font-size: 15px;
+  
+}
+.item__left, .item__right{
+    float: left;
+    width: 10%;
+    padding-right: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+/* .number{
     clear: both;
     background-color: #dbdbdb;
     padding: 40px;
@@ -112,7 +142,7 @@
     float: left;
     width: 20%;
     padding: 15px 0;
-}
+} */
 
 .icon{
     padding:90px 0 ;
@@ -135,7 +165,7 @@
     margin: 10px;
     text-align: center;
     padding: 40px;
-    background: #070750;
+    background: #002146;
     color: #ffffff;
     
 }
@@ -147,7 +177,7 @@
 
 .footer{
     clear: both;
-    background: #050538;
+    background: #002146;
     height: 400px;
     color: #ffffff;
     display: flex;

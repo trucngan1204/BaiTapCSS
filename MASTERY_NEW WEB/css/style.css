@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #ffffff;
+    margin: auto;
+    width: 75%;
+    padding: 20px 40px;
+}
+
+/* .header .circle {
+    background: #0b205c;
+    clip-path: circle(50%);
+    height: 50px;
+    width: 50px;
+  } */
+
+.logo {
+    text-decoration: none;
+}
+
+.header .logo i{
+    color: rgb(189, 189, 5);
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px;
+    background-color: #002146;
+    z-index: 1;
+    text-align: -webkit-center;
+}
+
+
+.header .logo span{
+    color: #000000;
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header .navbar{
+    margin-top: 20px;
+}
+
+.header .navbar a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.carousel{
+    background-image: url(../img/2.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduce{
+    padding: 30px 40px;
+    background-color: #ffffff;
+    height: 450px;
+}
+
+.introduce .intro{
+    margin:auto;
+    width: 75%;
+}
+
+.intro_left, .intro_right{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.intro_left p{
+    color: gray;
+    margin: 10px 0;
+}
+
+.intro_right img{
+    width: 100%;
+}
+
+.introduce .btn button{
+    background-color: #f8c007;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+}
+
+.number{
+    clear: both;
+    background-color: #dbdbdb;
+    padding: 40px;
+}
+
+.number .row{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.number .item{
+    width: 250px;
+    float: left;
+}
+
+.number .item h2{
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    width: 20%;
+    padding: 15px 0;
+}
+
+.icon{
+    padding:90px 0 ;
+    height:500px;
+}
+
+.icon .list{
+    margin: auto;
+    width: 80%;
+}
+
+.icon .col{
+    float: left;
+    width: 25%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.icon .col .item{
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+    background: #070750;
+    color: #ffffff;
+    
+}
+
+.icon .col .item i{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.footer{
+    clear: both;
+    background: #050538;
+    height: 400px;
+    color: #ffffff;
+    display: flex;
+}
+
+.contact{
+    margin: auto;
+    width: 80%;
+}
+
+.contact .up .content{
+    float: left;
+    width: calc(100% / 3);
+    padding: 40px;
+    line-height: 2;
+}
+
+.blogs{
+    padding:90px 0 ;
+    height:900px;
+    background: rgb(212, 208, 208);
+}
+
+.blogs .list_blog{
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+.list_blog .cont_blog{
+    float: left;
+}
+
+.content_blog{
+     width: 50%;
+ }
+
+ .list_blog .cont_post{
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.list_blog .cont_post img{
+    float: left;
+    width: 100%;
+}
+
+
+.list_blog .cont_post p{
+    color: gray;
+}
+
+.list_blog .list_post{
+    background: #ffffff;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+.footer .up .content h3{
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.content .icon{
+    text-decoration: none;
+}
+
+.content .icon i{
+    color: #d3a40c;
+}
+
+.content .icon span{
+    color: #ffffff;
+}
+
+.contact hr{
+    size: 5px;
+    color: rgb(128, 128, 128);
+}   
+
+.footer .down{
+    clear: both;
+    margin: 15px;
+}
+
